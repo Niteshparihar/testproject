@@ -1,0 +1,39 @@
+{
+  "name": "nifty-kicks-tool-api",
+  "version": "1.0.0a",
+  "description": "NiftyKicks tool",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "munqqqcrypto",
+  "license": "copyrighted",
+  "dependencies": {
+    "atomicassets": "^1.4.2",
+    "atomicmarket": "^1.1.6",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eosjs": "^22.1.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "engines": {
+    "node": "16.13.x"
+  }
+}
+
+
+
+
+
+
+
+
